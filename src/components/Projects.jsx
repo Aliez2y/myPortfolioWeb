@@ -2,14 +2,15 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 // สมมติว่า Import รูปโปรเจกต์เข้ามา (ถ้ายังไม่มีรูป ใช้ link placeholder ไปก่อนได้ครับ)
-// import solarProjectImg from '../assets/img/solar-project.png' 
+import solarImage from '../assets/img/Solarcells.png'
+import cafeImage from '../assets/img/Cafe.png'
 
 export const projects = [
   {
     id: 1,
     title: "KKN Solar Suitability Map",
     category: "Web Map Application",
-    image: "../src/assets/img/Solarcells.png", // เปลี่ยนเป็นตัวแปรรูปจริงของคุณ
+    image: solarImage, // เปลี่ยนเป็นตัวแปรรูปจริงของคุณ
     description: "A web map application for assessing the suitability of solar cell installation sites at Khon Kaen Municipality.",
     link: "https://kkn-solar-map.vercel.app/"
   },
@@ -17,7 +18,7 @@ export const projects = [
     id: 2,
     title: "Cafe Density Map KKN",
     category: "Web Map Application",
-    image: "../src/assets/img/Cafe.png", // เปลี่ยนเป็นตัวแปรรูปจริงของคุณ
+    image: cafeImage, // เปลี่ยนเป็นตัวแปรรูปจริงของคุณ
     description: "A web map application for assessing the density of cafes at Khon Kaen.",
     link: "https://github.com/Aliez2y/cafe-density-map-kkn"
   },
