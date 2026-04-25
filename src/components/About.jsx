@@ -90,7 +90,7 @@ function About() {
                         <img
                             src={myImage}
                             alt="Profile"
-                            className="relative w-72 h-72 lg:w-96 lg:h-[30rem] object-cover rounded-2xl shadow-2xl ring-1 ring-white/10 grayscale group-hover:grayscale-0 transition duration-500"
+                            className="relative w-72 h-72 lg:w-136 lg:h-[40rem] object-cover rounded-2xl shadow-2xl ring-1 ring-white/10 grayscale group-hover:grayscale-0 transition duration-500"
                         />
                     </div>
                 </motion.div>
