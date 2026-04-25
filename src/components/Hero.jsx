@@ -27,7 +27,7 @@ function Hero() {
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="text-9xl font-bold tracking-tighter mb-6"
+                    className="text-6xl md:text-9xl font-bold tracking-tighter mb-6"
                 >
                     Welcome to<br /> My website
                 </motion.h1>
@@ -35,7 +35,7 @@ function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-                    className="text-gray-400 text-xl mx-auto mt-15"
+                    className="text-gray-400 text-lg md:text-xl mx-auto mt-12 md:mt-16 max-w-2xl px-4"
                 >
                     Welcome to my website! It's a space to express myself, and I hope you like it.
                 </motion.p>
@@ -54,11 +54,11 @@ function Hero() {
                                 className="flex items-center animate-infinite-scroll shrink-0"
                             >
                                 {techStackLogo.map((logo, index) => (
-                                    <li key={`logo-${setIndex}-${index}`} className="shrink-0 mr-16">
+                                    <li key={`logo-${setIndex}-${index}`} className="shrink-0 mr-8 md:mr-16">
                                         <img
                                             src={logo}
                                             alt="tech"
-                                            className="h-10 w-auto object-contain transition-all duration-300"
+                                            className="h-8 md:h-10 w-auto object-contain transition-all duration-300"
                                         />
                                     </li>
                                 ))}
